@@ -1,12 +1,15 @@
 ﻿using System;
 
-namespace ivending
+namespace ivending.Models
 {
-    class Program
+  class Program
+  {
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
-        }
+      Machine ivend = new Machine("CodeWorks Location");
+
+
+      Console.WriteLine("Hello World!");
     }
+  }
 }
